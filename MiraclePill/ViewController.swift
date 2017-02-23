@@ -15,6 +15,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     let states = ["Alaska", "Arkansas", "Alabama", "California", "Maine", "New York"]
     
+    let string = "state" 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.statePicker.dataSource = self
